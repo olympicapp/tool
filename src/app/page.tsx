@@ -1,4 +1,5 @@
 import Link from "next/link";
+import HotelMap from "@/components/HotelMap";
 
 const tools = [
   {
@@ -32,6 +33,17 @@ export default function Home() {
             maken. Eerste tool: de Jacuzzi-planner.
           </p>
         </header>
+
+        <section className="mb-14">
+          <h2 className="mb-4 text-xs font-semibold uppercase tracking-widest text-neutral-500">
+            Locatie
+          </h2>
+          <HotelMap />
+          <p className="mt-3 text-sm text-neutral-400">
+            <span className="font-medium text-neutral-200">Olympic Hotel</span> ·
+            IJsbaanpad 12, 1076 CV Amsterdam
+          </p>
+        </section>
 
         <section className="mb-14">
           <h2 className="mb-4 text-xs font-semibold uppercase tracking-widest text-neutral-500">

@@ -9,7 +9,26 @@ const tools = [
     description:
       "Twee jacuzzi's (Jacuzzi 1 & 2) als één boekbare agenda. Klant kiest gewoon een tijd (09:00–22:00, blokken van 45 min); wij verdelen automatisch over de twee jacuzzi's en pushen naar Google Agenda — en later Mews.",
     href: "/tools/jacuzzi",
+    external: false,
     accent: "from-cyan-500/20 to-blue-500/10 border-cyan-500/30",
+  },
+  {
+    name: "Chang Planning",
+    status: "Live",
+    description:
+      "Personeelsplanning voor Chang Group — Olympic Hotel, Urban Lodge Hotel & Hotel Espresso. Gedeelde medewerkers, per hotel én overkoepelend.",
+    href: "https://planning-phi-two.vercel.app",
+    external: true,
+    accent: "from-amber-500/20 to-yellow-500/10 border-amber-500/30",
+  },
+  {
+    name: "Concurrentie-prijzen",
+    status: "In onderzoek",
+    description:
+      "Realtime kamerprijzen van nabije hotels vergelijken (per dag/week/maand) om je eigen tarieven scherp te zetten.",
+    href: "/tools/concurrentie",
+    external: false,
+    accent: "from-emerald-500/20 to-teal-500/10 border-emerald-500/30",
   },
 ];
 

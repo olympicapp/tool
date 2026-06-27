@@ -1,5 +1,6 @@
 import Link from "next/link";
 import HotelMap from "@/components/HotelMap";
+import AppHeader from "@/components/AppHeader";
 
 const tools = [
   {
@@ -21,7 +22,8 @@ const research = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-neutral-950 text-neutral-100">
+    <div className="min-h-screen bg-neutral-950 text-neutral-100">
+      <AppHeader />
       <div className="mx-auto max-w-3xl px-6 py-16">
         <header className="mb-12">
           <p className="text-sm font-medium uppercase tracking-widest text-cyan-400">
@@ -93,6 +95,6 @@ export default function Home() {
           </ul>
         </section>
       </div>
-    </main>
+    </div>
   );
 }
